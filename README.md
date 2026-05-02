@@ -23,18 +23,18 @@ Removes small noise using erosion + dilation.
 
 Watershed requires markers:
 
-Sure Background → Generated using dilation
-Sure Foreground → Extracted using distance transform
-Unknown Region → Background − Foreground
+#### Sure Background → Generated using dilation
+#### Sure Foreground → Extracted using distance transform
+#### Unknown Region → Background − Foreground
 ## 4. Watershed Segmentation
-Applied using cv2.watershed()
-Segments image into regions
+Applied using cv2.watershed(), 
+Segments image into regions, 
 Boundaries marked in red
 ## 5. Output
-Binary flood mask
-Flood regions highlighted on original image
+Binary flood mask, 
+Flood regions highlighted on original image, 
 Boundary visualization
 ## 6. Evaluation Metrics
-Dice Coefficient
-IoU (Jaccard Index)
+Dice Coefficient, 
+IoU (Jaccard Index), 
 Accuracy, Precision, Recall
